@@ -23,7 +23,7 @@
 - 처음 사용해본다.
 - Simgoid Linear Unit : 시그모이드 함수에 입력값을 곱한 함수
 <p align="center">
-   <img src='./DDPM_study/SILU_function.png', alt="SILU_function"  width="300" />
+   <img src='./DDPM_study/SILU_function.png', alt="SILU_function"  width="600" />
 </p> 
 <p align="center">
    <img src='./DDPM_study/SILU_IMAGE.png', alt="IMAGE"  width="400" />
@@ -31,6 +31,6 @@
 - 기존의 activation보다 훨씬 부드럽게 구성되어 있다. 
 </p> 
 <p align="center">
-   <img src='./DDPM_study/compare_SILU.png', alt="compare"  width="450" />
+   <img src='./DDPM_study/compare_SILU.png', alt="compare"  width="700" />
 </p>
 
