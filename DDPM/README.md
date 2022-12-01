@@ -29,7 +29,9 @@
 <p align="center">
    <img src='./DDPM_study/SILU_IMAGE.png', alt="IMAGE"  width="400" />
 </p> 
+
 - 기존의 activation보다 훨씬 부드럽게 구성되어 있다. 
+
 </p> 
 <p align="center">
    <img src='./DDPM_study/compare_SILU.png', alt="compare"  width="700" />
@@ -45,6 +47,7 @@
 <p align="center">
    <img src='./DDPM_study/Linear Attention.png', alt="compare"  width="700" />
 </p>
+
 > 위의 식에서 합에 들어있는 부분은 query와 상관없는 값이기 때문에 미리 O(N)만에 계산해 놓고 각 query마다 미리 계산된 값을 이용해서 attention layer의 output을 계산하면 되기 때문에 총 시간복잡도가 O(N)으로 줄어들게 됩니다. 공간복잡도 (memory complexity) 역시 분모, 분자의 sum에 해당되는 값을 미리 저장해놓기만 하면 (각각 D by D 혹은 D by N 행렬이기 때문에 N이 D에 비해서 매우 큰 경우 O(1) 혹은 O(N)으로 볼 수 있습니다.) 이 역시 O(N)으로 줄어들게 됩니다. 
 
 ### Q5) Noise
