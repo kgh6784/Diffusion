@@ -4,8 +4,9 @@
 
 Number | Paper | Code | Summary
 :---: | :---: | :---: | :---:
-1 | DDPM [[paper]](https://arxiv.org/abs/2006.11239) | [[code]](https://github.com/kgh6784/Diffusion/tree/main/DDPM) | 
-2222 | [[paper]] | [[code]] |
+1 | DDPM [[paper]](https://arxiv.org/abs/2006.11239) | [[code]](https://github.com/kgh6784/Diffusion/tree/main/DDPM) | [[summary]](https://jihun222.notion.site/DDPM-40238918c6cc4ccc99ebb91e057f0c32)
+
+2222 | [[paper]] | [[code]] | [[summary]](https://jihun222.notion.site/DDIM-7b2234d8ea1b43b4802a75a3d1758869)
 
 
 ### with Segmentation
