@@ -54,3 +54,17 @@
 - noise와 position encoding에서 혼선이 있었다.
 - noise는 각 step 이전의 이미지에 그냥 들어가는 거다. 
 - noise 추가된 이미지 = `sqrt_alphas_cumprod_t*x_start + sqrt_one_minus_alphas_cumprod_t*noise`
+
+
+## MODUPOP 질문 정리
+### Q1) β_t는 어떻게 설정하는 것인가요?
+- 첫 β_1는 0.001에서 시작하고 β_T는 0.2로 끝을 낸다.
+- T = 1000(일반적)
+- β를 어떻게 스케쥴링하는가에 따라서 노이즈 변화도 달라진다. 
+
+### Q2) β를 설정하는 기준이 따로 있나? Learnable하게 할 수 없나?
+- T를 현재 1000정도로 설정을 했는데, 이 쯤되면 pure한 Gaussian Noise가 되어야 되는데, 이렇게 천천히 noise를 주다가 점점 강하게 noise를 주는 것이 실험적으로 좋아서 그러지 않았을까 싶다. 
+- (지혜 님) beta는 learnable parameter로 둘 수도 있지만, 실험을 해보니 상수로 두었을 때랑 별차이 없어서(성능차이) 그냥 constant로 두었다고 논문에 나왔던 것 같습니다
+
+### Q3) cosine scheduling을 사용하는 이유?
+- 이것도 실험적인 결과
