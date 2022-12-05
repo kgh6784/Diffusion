@@ -12,4 +12,4 @@ Number | Title | Paper | Year | Code | Summary
 
 Number | Title | Paper | Year | Code | Summary
 :---: | :---: | :---: | :---: | :---: | :---:
-1 | https://jihun222.notion.site/Diffusion-Models-for-Implicit-Image-Segmentation-Ensembles-76b16eaf78894bde9e2b4d4275575196 | [[paper]](https://arxiv.org/pdf/2112.03145.pdf) | 2021 | [[code]] | [[summary]](https://jihun222.notion.site/Diffusion-Models-for-Implicit-Image-Segmentation-Ensembles-76b16eaf78894bde9e2b4d4275575196)
+1 | Diffusion Models for Implicit Image Segmentation Ensembles | [[paper]](https://arxiv.org/pdf/2112.03145.pdf) | 2021 | [[code]] | [[summary]](https://jihun222.notion.site/Diffusion-Models-for-Implicit-Image-Segmentation-Ensembles-76b16eaf78894bde9e2b4d4275575196)
