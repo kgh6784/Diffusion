@@ -13,3 +13,4 @@ Number | Title | Paper | Year | Code | Summary
 Number | Title | Paper | Year | Code | Summary
 :---: | :---: | :---: | :---: | :---: | :---:
 1 | Diffusion Models for Implicit Image Segmentation Ensembles | [[paper]](https://arxiv.org/pdf/2112.03145.pdf) | 2021 | [[code]] | [[summary]](https://jihun222.notion.site/Diffusion-Models-for-Implicit-Image-Segmentation-Ensembles-76b16eaf78894bde9e2b4d4275575196)
+2 | LABEL-EFFICIENT SEMANTIC SEGMENTATION WITH DIFFUSION MODELS | [[paper]](https://arxiv.org/pdf/2112.03126v3.pdf) | 2021 | [[code]] | [[summary]](https://jihun222.notion.site/LABEL-EFFICIENT-SEMANTIC-SEGMENTATION-WITH-DIFFUSION-MODELS-2fa7010b23ee477c814de32812160326)
