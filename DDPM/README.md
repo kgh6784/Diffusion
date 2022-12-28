@@ -18,7 +18,8 @@
 ## 혼자 스터디(22/12/01)
 
 ### Q1) Training 시 object function
-- ϵ과 ϵ_θ의 loss를 계산하는 것은 실제 forward 과정을 거쳐 나온 t 시점에서의 알려진 noise와 t=T에서부터 reverse과정을 거쳐서 나온 nerual net을 통해 나온 추측된 noise사이의 loss function을 계산하는 것 같다.
+- ϵ과 ϵ_θ의 loss를 계산하는 것은 실제 forward 과정을 거쳐 나온 t 시점에서의 알려진 noise를 U-Net을 통과시켜 나온 pure한 noise와 t=T에서부터 reverse과정을 거쳐서 나온 nerual net을 통해 나온 추측된 noise사이의 loss function을 계산하는 것 같다.
+(공식 코드를 보면 noise끼리의 loss를 계산하는 것이 기본, x_0을 예측하는 경우가 있는데 이는 아직 논문을 더 자세히 봐야할 듯)
 
 ### Q2) SILU
 - 처음 사용해본다.
