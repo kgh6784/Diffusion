@@ -14,3 +14,24 @@ Number | Title | Paper | Year | Code | Summary
 :---: | :---: | :---: | :---: | :---: | :---:
 1 | Diffusion Models for Implicit Image Segmentation Ensembles | [[paper]](https://arxiv.org/pdf/2112.03145.pdf) | 2021 | [[code]] | [[summary]](https://jihun222.notion.site/Diffusion-Models-for-Implicit-Image-Segmentation-Ensembles-76b16eaf78894bde9e2b4d4275575196)
 2 | LABEL-EFFICIENT SEMANTIC SEGMENTATION WITH DIFFUSION MODELS | [[paper]](https://arxiv.org/pdf/2112.03126v3.pdf) | 2021 | [[code]] | [[summary]](https://jihun222.notion.site/LABEL-EFFICIENT-SEMANTIC-SEGMENTATION-WITH-DIFFUSION-MODELS-2fa7010b23ee477c814de32812160326)
+
+
+### Guide
+- `DDPM` Pretrain된 모델 사용하려면 [[링크]](https://github.com/pesser/pytorch_diffusion)를 참고하면 된다.
+  - 제공 pretrain weights : `cifar10`, `lsun-bedroom`, `lsun-cat` `lsun_church`
+- <Diffusion Models Beat GANS on Image Synthesis.>도 pretrain된 weight를 제공해준다.
+   * 64x64 classifier: [64x64_classifier.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/64x64_classifier.pt)
+   * 64x64 diffusion: [64x64_diffusion.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/64x64_diffusion.pt)
+   * 128x128 classifier: [128x128_classifier.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/128x128_classifier.pt)
+   * 128x128 diffusion: [128x128_diffusion.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/128x128_diffusion.pt)
+   * 256x256 classifier: [256x256_classifier.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_classifier.pt)
+   * 256x256 diffusion: [256x256_diffusion.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion.pt)
+   * 256x256 diffusion (not class conditional): [256x256_diffusion_uncond.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion_uncond.pt)
+   * 512x512 classifier: [512x512_classifier.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/512x512_classifier.pt)
+   * 512x512 diffusion: [512x512_diffusion.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/512x512_diffusion.pt)
+   * 64x64 -&gt; 256x256 upsampler: [64_256_upsampler.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/64_256_upsampler.pt)
+   * 128x128 -&gt; 512x512 upsampler: [128_512_upsampler.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/128_512_upsampler.pt)
+   * LSUN bedroom: [lsun_bedroom.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/lsun_bedroom.pt)
+   * LSUN cat: [lsun_cat.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/lsun_cat.pt)
+   * LSUN horse: [lsun_horse.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/lsun_horse.pt)
+   * LSUN horse (no dropout): [lsun_horse_nodropout.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/lsun_horse_nodropout.pt)
