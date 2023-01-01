@@ -19,7 +19,7 @@ Number | Title | Paper | Year | Code | Summary
 ### Guide
 - `DDPM` Pretrain된 모델 사용하려면 [[링크]](https://github.com/pesser/pytorch_diffusion)를 참고하면 된다.
   - 제공 pretrain weights : `cifar10`, `lsun-bedroom`, `lsun-cat` `lsun_church`
-- <Diffusion Models Beat GANS on Image Synthesis.>도 pretrain된 weight를 제공해준다.
+- `Diffusion Models Beat GANS on Image Synthesis` pretrain된 weight를 제공해준다.
    * 64x64 classifier: [64x64_classifier.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/64x64_classifier.pt)
    * 64x64 diffusion: [64x64_diffusion.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/64x64_diffusion.pt)
    * 128x128 classifier: [128x128_classifier.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/128x128_classifier.pt)
