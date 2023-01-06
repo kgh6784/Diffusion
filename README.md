@@ -15,6 +15,8 @@ Number | Title | Paper | Year | Code | Summary
 1 | Diffusion Models for Implicit Image Segmentation Ensembles | [[paper]](https://arxiv.org/pdf/2112.03145.pdf) | 2021 | [[code]] | [[summary]](https://jihun222.notion.site/Diffusion-Models-for-Implicit-Image-Segmentation-Ensembles-76b16eaf78894bde9e2b4d4275575196)
 2 | LABEL-EFFICIENT SEMANTIC SEGMENTATION WITH DIFFUSION MODELS | [[paper]](https://arxiv.org/pdf/2112.03126v3.pdf) | 2021 | [[code]] | [[summary]](https://jihun222.notion.site/LABEL-EFFICIENT-SEMANTIC-SEGMENTATION-WITH-DIFFUSION-MODELS-2fa7010b23ee477c814de32812160326)
 
+### 발표자료 정리
+- 1회차 : DDPM / Generative Modeling by Estimating Gradients of the Data Distribution | [[ppt]](https://github.com/kgh6784/Diffusion/blob/main/presentation/Diffusion%20%EC%8A%A4%ED%84%B0%EB%94%94%201%ED%9A%8C%EC%B0%A8.pptm)
 
 ### Guide
 - `DDPM` Pretrain된 모델 사용하려면 [[링크]](https://github.com/pesser/pytorch_diffusion)를 참고하면 된다.
