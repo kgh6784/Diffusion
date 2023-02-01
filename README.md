@@ -16,7 +16,9 @@ Number | Title | Paper | Year | Code | Summary
 2 | LABEL-EFFICIENT SEMANTIC SEGMENTATION WITH DIFFUSION MODELS | [[paper]](https://arxiv.org/pdf/2112.03126v3.pdf) | 2021 | [[code]] | [[summary]](https://jihun222.notion.site/LABEL-EFFICIENT-SEMANTIC-SEGMENTATION-WITH-DIFFUSION-MODELS-2fa7010b23ee477c814de32812160326)
 
 ### 발표자료 정리
-- 1회차 : DDPM / Generative Modeling by Estimating Gradients of the Data Distribution | [[ppt]](https://github.com/kgh6784/Diffusion/blob/main/presentation/Diffusion%20%EC%8A%A4%ED%84%B0%EB%94%94%201%ED%9A%8C%EC%B0%A8.pptm)
+- 1회차 : `DDPM` / Generative Modeling by Estimating Gradients of the Data Distribution | [[ppt]](https://github.com/kgh6784/Diffusion/blob/main/presentation/Diffusion%20%EC%8A%A4%ED%84%B0%EB%94%94%201%ED%9A%8C%EC%B0%A8.pptm)
+- 2회차 : `DDIM` / `IDDPM` | [[ppt]](https://github.com/kgh6784/Diffusion/blob/main/presentation/diffusion%20study%202%EC%A3%BC%EC%B0%A8.pptx)
+- 4회차 : `SDE` | [[ppt]](https://github.com/kgh6784/Diffusion/blob/main/presentation/SDE%20%EB%B0%9C%ED%91%9C.pptx)
 
 ### Guide
 - `DDPM` Pretrain된 모델 사용하려면 [[링크]](https://github.com/pesser/pytorch_diffusion)를 참고하면 된다.
